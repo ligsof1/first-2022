@@ -1,0 +1,8 @@
+@font-face {
+    font-family: Caravan; 
+    src: url(fonts/Caravan.otf);}
+body {margin: 0px;}
+body {align-items: center;background-color: #f5f5f5;display: flex;min-height: 100vh;justify-content: center;margin: 0;}
+	.container {text-align: center;}
+	.container h1 {font-size: 8rem;letter-spacing: 10px;margin: 0;font-family: 'Caravan';color: rgba(169, 119, 193, 1);}
+	.container h4 {font-size: 1.25rem;font-weight: 300;font-family: 'Poppins';}

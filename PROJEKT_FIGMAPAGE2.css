@@ -1,0 +1,71 @@
+@font-face {
+    font-family: Caravan; 
+    src: url(fonts/Caravan.otf);}
+body {margin: 0px}
+.main {display: flex;flex-direction:column;}
+     .main .header1 {position: sticky;top: 1vh;left: 1vh}
+.meny {display: flex;flex-direction: row;}
+     .meny p {padding-left:10px;padding-right: 5px;font-family: 'Poppins';font-style: normal;
+                                 font-weight: 300;font-size: 16px;line-height: 28px;}
+     .meny a {text-decoration: none;color: black;}
+.name {font-family: 'Caravan';
+       font-style: normal;
+       font-weight: 400;
+       font-size: 120px;
+       line-height: 60%;
+       color: #A977C1;
+       padding-top: 15px;
+       padding-bottom: 100px;
+       padding-left: 30px}
+.content1 {display: flex;flex-direction: row;justify-content:center;align-items: flex-start;margin-bottom: 3%}
+         .content1 .content1text {width: 396px;margin-right:4%;font-family: 'Poppins';font-style: normal;
+                                 font-weight: 300;font-size: 16px;line-height: 28px;}
+         .content1 .content1backgraund {align-items: center; background-image: url('imgs/content1backgraund.png');
+          background-size:contain;width: 40vw;background-repeat: no-repeat;
+          height: 60vh;}
+.content2 {display: flex;flex-direction: row;justify-content:center;align-items:flex-start;margin-bottom: 3%}
+         .content2 .content2text {width: 396px;margin-left:4%;font-family: 'Poppins';font-style: normal;
+                                 font-weight: 300;font-size: 16px;line-height: 28px; }
+         .content2 .content2backgraund {background-image: url('imgs/content2backgraund.jpg');
+         background-size:contain;width: 40vw;background-repeat: no-repeat;
+          height: 60vh;}
+.content3 {display: flex;flex-direction: row;justify-content:center;align-items:flex-start;margin-bottom: 3%}
+         .content3 .content3text {width: 396px;margin-right:4%;font-family: 'Poppins';font-style: normal;
+                                 font-weight: 300;font-size: 16px;line-height: 28px; }
+         .content3 .content3backgraund {background-image: url('imgs/content3backgraund.png');
+          background-size:contain;width: 40vw;background-repeat: no-repeat;
+          height: 60vh;}
+.content4 {display: flex;flex-direction: row;justify-content:center;align-items:flex-start;margin-bottom: 1%}
+         .content4 .content4text {width: 396px;margin-left:4%;font-family: 'Poppins';font-style: normal;
+                                 font-weight: 300;font-size: 16px;line-height: 28px; }
+         .content4 .content4backgraund {background-image: url('imgs/content4backgraund.jpg');
+          background-size:contain;width: 40vw;background-repeat: no-repeat;
+          height: 60vh;} 
+.buttons {display: flex;flex-direction: row;justify-content: center;margin-bottom: 0px;}
+        .buttons p {color: rgba(169, 119, 193, 1);}
+        .buttons .vector16 {margin-left: 10px;margin-right: 10px;}
+.backgraund1 { height:65vh;background-image: url('imgs/5backgraund.png');width: 100%;background-size: cover;}
+@media screen and (max-width: 1280px){.
+
+}
+@media screen and (max-width: 1120px){ 
+
+}
+@media screen and (max-width: 414px){
+.main .name {font-size:9vh;padding: 0 0 4vh 6vh}
+.main .content1 {flex-direction: column-reverse;}
+.main .content1backgraund {width: 100vw;height: 36vh;}
+.content1text p {margin-left:4% }
+.main .content2 {flex-direction: column;}
+.main .content2backgraund {width: 100vw;height: 32vh;}
+.content2 .content2text {margin-left: 0%;}
+.content2text p {margin-left:4%;}
+.main .content3 {flex-direction: column-reverse;}
+.main .content3backgraund {width: 100vw;height: 27vh;}
+.content3text p {margin-left:4% }
+.main .content4 {flex-direction: column;}
+.main .content4backgraund {width: 100vw;height: 32vh;}
+.content4 .content4text {margin-left: 0%;}
+.content4text p {margin-left:4%;}
+.backgraund1 {height: 15vh;}
+}
